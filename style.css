@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+html{
+    height: 100vh; /*tamanho total da tela*/
+    font-style: 14px;
+
+}
+
+body{
+    background-color: #282828;
+    height: 100%;
+    
+}
+
+.container{
+    height: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.degrade{
+    background: linear-gradient(to right, #33DA23, #A6DB00, #DB9900, #fc5818, #fb4c0d);
+}
+/*  ESTILO DO HEASER    */
+header{
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+header img{
+    max-width: 130px;
+    margin-bottom: 20px;
+    border-radius:  50%;
+}
+
+header h1{
+    font-style: 2em;
+    margin-bottom: 10px;
+    color: #5e5e5e;
+    font-weight: 300;
+}
+
+/*  ESTILO DE BOTOES  */
+
+section.botoes-links{
+    display: flex;  /*alinhamento*/
+    flex-direction: column;  /*alinhamento vertical*/
+    gap: 20px;
+}
+
+a.link button{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1em;
+    cursor: pointer;
+    color: #fff;
+    transition: .2s;
+}
+
+a.link{
+    font-size: 1.2em;
+}
+
+a.link button:hover, a.btn-footer:hover{
+    transform: scale(1.05);
+}
+
+footer{
+    text-align: center;
+    margin: 30px;
+}
+
+footer a.btn-footer{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    font-size: 2em;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: .1s;
+}
+
+/**/
