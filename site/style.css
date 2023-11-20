@@ -12,7 +12,7 @@ html{
 }
 
 body{
-    background-color: #282828;
+    background: linear-gradient(-170deg, #3c3b3f 0%, #605c3c 100%);
     height: 100%;
     
 }
@@ -36,6 +36,27 @@ a{
 .degrade{
     background: linear-gradient(to right, #33DA23, #A6DB00, #DB9900, #fc5818, #fb4c0d);
 }
+#linkedin{
+    background: linear-gradient(to right, #6A9EB6, #306285, #003B5F)
+}
+#github{
+    background: linear-gradient(to right, #2f5b8d, #103867, #2A2267, #440D67)
+}
+#instagram{
+    background: linear-gradient(to right, rgb(50,97,205) 0%, rgb(186,49,179) 18%, rgb(249,73,96) 35%, rgb(249,101,63) 49%, rgb(255,83,61) 68%, rgb(252,202,69) 100%)
+}
+#whatsapp{
+    background: linear-gradient(to right,#28D045,#37DD55, #5AF072, #57FB80)
+}
+#portfólio{
+    background: linear-gradient(to right, #7f00ff 0%, #e100ff 100%)
+}
+#twitter{
+    background: linear-gradient(to right, #667db6 0%, #0082c8 25%, #0082c8 50%, #667db6 100%)
+}
+#email{
+    background: linear-gradient(to right, #f85032 0%, #e73827 100%)
+}
 /*  ESTILO DO HEASER    */
 header{
     text-align: center;
@@ -45,8 +66,10 @@ header{
 
 header img{
     max-width: 130px;
+    margin-top: 50px;
     margin-bottom: 20px;
     border-radius:  50%;
+
 }
 
 header h1{
@@ -102,4 +125,7 @@ footer a.btn-footer{
     transition: .1s;
 }
 
-/**/
+#roda-pe{
+    text-align: center;
+    padding-top: 50px;
+}
