@@ -66,7 +66,7 @@ header{
 
 header img{
     max-width: 130px;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 20px;
     border-radius:  50%;
 
@@ -78,6 +78,7 @@ header h1{
     color: #5e5e5e;
     font-weight: 300;
 }
+
 
 /*  ESTILO DE BOTOES  */
 
