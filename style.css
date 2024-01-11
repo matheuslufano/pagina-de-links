@@ -14,9 +14,25 @@ html{
 body{
     background: linear-gradient(-170deg, #3c3b3f 0%, #605c3c 100%);
     height: 100%;
-    background-attachment:fixed;
+    background-attachment:fixed; /*<--- solução dos meus problemas*/
 }
 
+
+/* DEGRADE */
+#degrade{
+    background-image: linear-gradient(-170deg, #050505 0%, #427292 100%, #00d9ff 100%);
+    background-size: 500% 100%;
+    animation: degrade-animado 2s infinite alternate;
+}
+
+@keyframes degrade-animado{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
 .container{
     height: 100%;
     max-width: 550px;
@@ -37,46 +53,49 @@ a{
     background: linear-gradient(to right, #33DA23, #A6DB00, #DB9900, #fc5818, #fb4c0d);
 }
 #linkedin{
-    background: linear-gradient(to right, #6A9EB6, #306285, #003B5F)
+    background: linear-gradient(to right, #6A9EB6, #306285, #003B5F);
 }
 #github{
-    background: linear-gradient(to right, #2f5b8d, #103867, #2A2267, #440D67)
+    background: linear-gradient(to right, #2f5b8d, #103867, #2A2267, #440D67);
 }
 #instagram{
-    background: linear-gradient(to right, rgb(50,97,205) 0%, rgb(186,49,179) 18%, rgb(249,73,96) 35%, rgb(249,101,63) 49%, rgb(255,83,61) 68%, rgb(252,202,69) 100%)
+    background: linear-gradient(to right, rgb(50,97,205) 0%, rgb(186,49,179) 18%, rgb(249,73,96) 35%, rgb(249,101,63) 49%, rgb(255,83,61) 68%, rgb(252,202,69) 100%);
 }
 #whatsapp{
-    background: linear-gradient(to right,#28D045,#37DD55, #5AF072, #57FB80)
+    background: linear-gradient(to right,#28D045,#37DD55, #5AF072, #57FB80);
 }
 #portfólio{
-    background: linear-gradient(to right, #7f00ff 0%, #e100ff 100%)
+    background: linear-gradient(to right, #7f00ff 0%, #e100ff 100%);
 }
 #twitter{
-    background: linear-gradient(to right, #667db6 0%, #0082c8 25%, #0082c8 50%, #667db6 100%)
+    background: linear-gradient(to right, #667db6 0%, #0082c8 25%, #0082c8 50%, #667db6 100%);
 }
 #email{
-    background: linear-gradient(to right, #f85032 0%, #e73827 100%)
+    background: linear-gradient(to right, #f85032 0%, #e73827 100%);
 }
 /*  ESTILO DO HEASER    */
 header{
+    margin-top: 20px;
     text-align: center;
     margin-bottom: 40px;
 
 }
 
 header img{
-    max-width: 150px;
+    max-width: 170px;
     margin-top: 100px;
     margin-bottom: 10px;
-    border-radius:  50%;
+    border-radius:  10%;
+    box-shadow: 0px 0px 10px #000000;
 
 }
 
 header h1{
     font-style: 2em;
     margin-bottom: 10px;
-    color: #5e5e5e;
-    font-weight: 300;
+    color: #a1a1a1;
+    font-weight: 200;
+    font-size: 25px;
 }
 
 /*  ESTILO DE BOTOES  */
@@ -89,13 +108,14 @@ section.botoes-links{
 
 a.link button{
     width: 100%;
-    padding: 10px 20px;
+    padding: 13px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border: none;
     border-radius: 30px;
-    font-size: 1.1em;
+    box-shadow: 0px 0px 5px #00000079;
+    font-size: 1.2em;
     cursor: pointer;
     color: #fff;
     transition: .2s;
@@ -111,7 +131,8 @@ a.link button:hover, a.btn-footer:hover{
 
 footer{
     text-align: center;
-    margin: 30px;
+    margin: 20px;
+    font-size: 15px;
 }
 
 footer a.btn-footer{
@@ -123,6 +144,7 @@ footer a.btn-footer{
     border-radius: 50%;
     margin: 0 10px;
     transition: .1s;
+    box-shadow: 0px 0px 10px #00000046;
 }
 
 #roda-pe{
