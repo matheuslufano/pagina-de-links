@@ -12,7 +12,6 @@ html{
 }
 
 body{
-    background: linear-gradient(-170deg, #3c3b3f 0%, #605c3c 100%);
     height: 100%;
     background-attachment:fixed; /*<--- solução dos meus problemas*/
 }
@@ -20,7 +19,7 @@ body{
 
 /* DEGRADE */
 #degrade{
-    background-image: linear-gradient(-170deg, #050505 0%, #427292 100%, #00d9ff 100%);
+    background-image: linear-gradient(-17deg, #000000 0%, #00aeff 100%);
     background-size: 500% 100%;
     animation: degrade-animado 2s infinite alternate;
 }

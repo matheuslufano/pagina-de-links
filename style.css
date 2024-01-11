@@ -20,7 +20,7 @@ body{
 
 /* DEGRADE */
 #degrade{
-    background-image: linear-gradient(-170deg, #050505 0%, #427292 100%, #00d9ff 100%);
+    background-image: linear-gradient(-17deg, #000000 0%, #00aeff 100%);
     background-size: 500% 100%;
     animation: degrade-animado 2s infinite alternate;
 }
