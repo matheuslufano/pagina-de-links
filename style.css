@@ -20,9 +20,9 @@ body{
 
 /* DEGRADE */
 #degrade{
-    background-image: linear-gradient(-17deg, #000000 0%, #00aeff 100%);
+    background-image: linear-gradient(-18deg, #000000 0%, #00aeff 100%);
     background-size: 500% 100%;
-    animation: degrade-animado 2s infinite alternate;
+    animation: degrade-animado 5s infinite alternate;
 }
 
 @keyframes degrade-animado{
@@ -149,5 +149,6 @@ footer a.btn-footer{
 
 #roda-pe{
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
+    margin-bottom: 50px;
 }
