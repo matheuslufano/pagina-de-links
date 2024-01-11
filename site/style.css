@@ -14,7 +14,7 @@ html{
 body{
     background: linear-gradient(-170deg, #3c3b3f 0%, #605c3c 100%);
     height: 100%;
-    
+    background-attachment:fixed; /*<--- solução dos meus problemas*/
 }
 
 .container{
@@ -65,9 +65,9 @@ header{
 }
 
 header img{
-    max-width: 130px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    max-width: 150px;
+    margin-top: 100px;
+    margin-bottom: 10px;
     border-radius:  50%;
 
 }
@@ -78,7 +78,6 @@ header h1{
     color: #5e5e5e;
     font-weight: 300;
 }
-
 
 /*  ESTILO DE BOTOES  */
 
